@@ -4,19 +4,19 @@
 // использовать циклы.
 
 
-// void ShowNumbers(int M, int N){
-//     if (M == N) {
-//     Console.Write(M);
-//     return;
-//     }
-//     Console.Write($"{M}, ");
-//     ShowNumbers(M + 1, N);
-// }
-// Console.Write("Введите минимум: ");
-// int M = Convert.ToInt32(Console.ReadLine());
-// Console.Write("Введите максисум: ");
-// int N = Convert.ToInt32(Console.ReadLine());
-// ShowNumbers(M, N);
+void ShowNumbers(int M, int N){
+    if (M == N) {
+    Console.Write(M);
+    return;
+    }
+    Console.Write($"{M}, ");
+    ShowNumbers(M + 1, N);
+}
+Console.Write("Введите минимум: ");
+int M = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите максисум: ");
+int N = Convert.ToInt32(Console.ReadLine());
+ShowNumbers(M, N);
 
 
 
@@ -48,11 +48,11 @@
 // рекурсию, не использовать циклы.
 
 
-void Recursion(int[] array, int start = 0){
-    if (start != array.Length) {
-        Recursion(array, start + 1);
-        Console.Write($"{array[start]}, ");
-    }
-}
-var array = new int[]{1, 2, 5, 0, 10, 34};
-Recursion(array);
+// void Recursion(int[] array, int start = 0){
+//     if (start != array.Length) {
+//         Recursion(array, start + 1);
+//         Console.Write($"{array[start]}, ");
+//     }
+// }
+// var array = new int[]{1, 2, 5, 0, 10, 34};
+// Recursion(array);
