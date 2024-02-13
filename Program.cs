@@ -4,19 +4,19 @@
 // использовать циклы.
 
 
-void ShowNumbers(int M, int N){
-    if (M == N) {
-    Console.Write(M);
-    return;
-    }
-    Console.Write($"{M}, ");
-    ShowNumbers(M + 1, N);
-}
-Console.Write("Введите минимум: ");
-int M = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите максисум: ");
-int N = Convert.ToInt32(Console.ReadLine());
-ShowNumbers(M, N);
+// void ShowNumbers(int M, int N){
+//     if (M == N) {
+//     Console.Write(M);
+//     return;
+//     }
+//     Console.Write($"{M}, ");
+//     ShowNumbers(M + 1, N);
+// }
+// Console.Write("Введите минимум: ");
+// int M = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите максисум: ");
+// int N = Convert.ToInt32(Console.ReadLine());
+// ShowNumbers(M, N);
 
 
 
@@ -26,17 +26,17 @@ ShowNumbers(M, N);
 // неотрицательных числа m и n. 
 
 
-// int AckermanFunction (int m, int n){
-//     if (m == 0) return n + 1;
-//     if (n == 0) return AckermanFunction(m-1, 1);
-//     return AckermanFunction(m - 1, AckermanFunction(m, n - 1));
-// }
+int AckermanFunction (int m, int n){
+    if (m == 0) return n + 1;
+    if (n == 0) return AckermanFunction(m-1, 1);
+    return AckermanFunction(m - 1, AckermanFunction(m, n - 1));
+}
 
-// Console.Write("Введите число: ");
-// int m = Convert.ToInt32(Console.ReadLine());
-// Console.Write("Введите число: ");
-// int n = Convert.ToInt32(Console.ReadLine());
-// Console.Write(AckermanFunction(m, n));
+Console.Write("Введите число: ");
+int m = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.Write(AckermanFunction(m, n));
 
 
 
