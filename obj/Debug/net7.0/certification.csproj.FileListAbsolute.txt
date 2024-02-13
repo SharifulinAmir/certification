@@ -1,0 +1,14 @@
+C:\Users\shari\Desktop\C#\certification\bin\Debug\net7.0\certification.exe
+C:\Users\shari\Desktop\C#\certification\bin\Debug\net7.0\certification.deps.json
+C:\Users\shari\Desktop\C#\certification\bin\Debug\net7.0\certification.runtimeconfig.json
+C:\Users\shari\Desktop\C#\certification\bin\Debug\net7.0\certification.dll
+C:\Users\shari\Desktop\C#\certification\bin\Debug\net7.0\certification.pdb
+C:\Users\shari\Desktop\C#\certification\obj\Debug\net7.0\certification.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shari\Desktop\C#\certification\obj\Debug\net7.0\certification.AssemblyInfoInputs.cache
+C:\Users\shari\Desktop\C#\certification\obj\Debug\net7.0\certification.AssemblyInfo.cs
+C:\Users\shari\Desktop\C#\certification\obj\Debug\net7.0\certification.csproj.CoreCompileInputs.cache
+C:\Users\shari\Desktop\C#\certification\obj\Debug\net7.0\certification.dll
+C:\Users\shari\Desktop\C#\certification\obj\Debug\net7.0\refint\certification.dll
+C:\Users\shari\Desktop\C#\certification\obj\Debug\net7.0\certification.pdb
+C:\Users\shari\Desktop\C#\certification\obj\Debug\net7.0\certification.genruntimeconfig.cache
+C:\Users\shari\Desktop\C#\certification\obj\Debug\net7.0\ref\certification.dll
